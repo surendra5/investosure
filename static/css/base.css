@@ -1,0 +1,56 @@
+.prof-style{
+  margin-top: -86px;
+}
+
+.intern-apply{
+  font-size: 1.28rem !important;
+}
+
+.main_logo{
+  height: 70px;
+}
+.parallax{
+    /* The image used */
+    background-image: url('http://127.0.0.1:8000/static/css/about.jpg');
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+  margin: 4%;
+}
+#contact-form{
+      padding: 22px;
+}
+#branch{
+  font-size: 19px;
+}
+#company-name{
+  font-size: 18px;
+}
+#company-address{
+  font-size: 1x5px;
+}
+
+#side-nav-about{
+  height: 227px;
+      width: 169px;
+  line-height: 39px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /*padding: 19px;*/
+}
+
+#location:hover{
+
+
+  }
+
+#side-nav-about a{
+      color: #ffffff !important;
+}

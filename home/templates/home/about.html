@@ -1,0 +1,29 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey darken-3" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Location</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Who we are</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Terms of Use</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <p>    InvestoSure was formed by a group of like-minded individuals with a common goal to help people achieve their financial goals through proper investment planning, without having to compromise on their current standard of living. We have observed that most people have inadequate financial planning and do not realise their full monetary potential. We understand that each person has different goals. Thus we have tie ups with multiple business partners in the BFSI sector, allowing us to provide a wide variety of products to our customers.</p>
+        <p>
+        Moreover, we are also involved in Recruitment Process Outsourcing. Mentored by our parent company Bridge Group Solutions, a renowned RPO firm with half a decade plus presence, we aim to provide fast, satisfactory, and successful fulfillment of our clients’ hiring tasks. Our team works tirelessly to provide quality human resource services to the partner companies.
+      </p>
+      <p>
+        Recently, we have also started exploring the world of Futures Trading. We realise the immense potential of trading in the futures market and we look forward to expanding our business into this field as well. The Futures market is an integral part of the Financial Derivatives world. Traders of futures market protect the hedger’s against the drastic fluctuations in the price of the commodities.
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}

@@ -1,0 +1,27 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey lighten-1" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Location</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Who we are</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Contacts</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <div class="row">
+          <span id="branch">Head Office</span><br>
+          <span id="company-name">InvestoSure (PVT) Limited</span><br>
+          <span id="office-address">C-32 Kaushambi<br>Ghaziabad<br>Uttar Pradesh<br>201010<br>India</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}

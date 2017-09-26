@@ -1,0 +1,27 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey darken-3" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Finance</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Trading</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Recruitment Outsourcing Process</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <p>We also deal in Recruitment Process Outsourcing (RPO). It is said that the growth and excellence of an organisation are defined by the quality of its employees. In a cut-throat competition of today's world, it is essential for any company to have capable and diligent employees. We aim to fulfill this requirement by providing fast, satisfactory, and successful fulfillment of our clients' hiring needs.
+
+        Our team works tirelessly to provide quality human resource services to the partner companies. We connect talented individuals with companies to ensure a symbiotic relationship between the two. With us, you can rest assured that only the best and the brightest will join you in your pursuit to achieve excellence.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}

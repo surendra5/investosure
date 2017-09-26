@@ -1,0 +1,26 @@
+
+
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block maincontent %}
+
+<div class="row">
+  <div class="col s12 m4 offset-s2 offset-m2 card-panel hoverable">
+    {% load material_form %}
+    <form method="POST">
+        {% csrf_token %}
+        {% form form=form %}{% endform %}
+        <button type="submit" name="_submit" class="btn">Submit</button>
+    </form>
+  </div>
+  <div class="col s12 m4 offset-s1">
+    <div class="row card-panel hoverable">
+      We at InvestoSure aim to fulfil every need of our clients, whether it pertains to financial consultancy or recruitment process outsourcing. We pride ourselves in ensuring complete customer satisfaction on all levels. In addition, we are also expanding into Futures Trading.
+    </div>
+
+    <div class="row card-panel hoverable">
+      We at InvestoSure aim to fulfil every need of our clients, whether it pertains to financial consultancy or recruitment process outsourcing. We pride ourselves in ensuring complete customer satisfaction on all levels. In addition, we are also expanding into Futures Trading.
+    </div>
+</div>
+{% endblock %}

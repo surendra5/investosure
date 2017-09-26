@@ -1,0 +1,26 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey darken-3" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Finance</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Trading</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Recruitment Outsourcing Process</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <p>For each section of our business, we aim to provide our employees the best quality of training that will help them discover their capabilities and enhance knowledge and understanding of the work allotted to them. The training will be provided by professional mentors of the company who have years of prior experience in their respective fields.
+        Our thorough and comprehensive training program will enable our employees to think out of the box and contribute to the overall growth of the company. Our commitment to employee learning and development has been a strong contributor to our company’s success.
+        After the completion of the training, the employee is further exposed to a working environment that continuously provides an opportunity to learn and grow.
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}

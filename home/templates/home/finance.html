@@ -1,0 +1,27 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey darken-3" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Finance</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Trading</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Recruitment Outsourcing Process</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <p>InvestoSure works as a Financial Consultancy firm that aims to spread awareness about financial solutions to customers who are unaware of the various investment plans available to best suit their needs and help them achieve their financial goals.
+
+        We have tie-ups with multiple banking and insurance companies which allows us to provide every customer with a financial plan that serves them best. At InvestoSure, customer satisfaction is our highest priority, and we work relentlessly to ensure it.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}

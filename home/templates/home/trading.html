@@ -1,0 +1,29 @@
+
+{% extends 'home/base.html' %}
+{% load static %}
+{% block maincontent %}
+<main>
+
+  <div class="row">
+    <div class="container">
+      <div class="col m3 hide-on-small-only card-panel hoverable grey darken-3" id="side-nav-about">
+        <span id="location"><a href="{% static 'home/location.html' %}">Finance</a></span>
+          <div class="divider"></div>
+        <span id="who"><a href="{% static 'home/about.html' %}">Trading</a></span>
+            <div class="divider"></div>
+        <span id="contact"><a href="{% static 'home/contacts.html' %}">Recruitment Outsourcing Process</a></span>
+      </div>
+      <div class="col m1 hide-on-small-only"></div>
+      <div class="col s12 m8  card-panel grey lighten-4">
+        <p>Realising the immense potential of trading in Futures Market, InvestoSure plans on expanding our business into this field as well.
+
+        The Futures Market is an integral part of the Financial Derivatives world. Traders of futures market protect the hedger's against the drastic fluctuations in the price of the commodities.
+
+        We are looking forward to adding new ambitious members to our team who are creative, confident and good with numbers. They must also be capable of making independent judgments, take initiatives and are comfortable with risk.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}
