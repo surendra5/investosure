@@ -1,0 +1,45 @@
+#form_raw{
+  border-right: 1px solid #fff;
+  background-color: #e0e0e0;
+  padding: 15px;
+}
+.detail_raw{
+  border-bottom: 1px solid #fff;
+  background-color: #e0e0e0;
+  padding: 21px;
+}
+#contact_head{
+  margin-top: -11px;
+}
+#branch{
+
+font-size: 1.5em;
+
+}
+#company-name{
+  font-size: 18px;
+    letter-spacing: 3px;
+}
+#office-address{
+  letter-spacing: 2px;
+line-height: 2em;
+
+}
+.content_raw{
+  background-color: #e0e0e0;
+  font-size: 14px;
+text-align: justify;
+letter-spacing: 0.1px;
+padding: 21px;
+height: 247px;
+}
+.container{  position: absolute;
+  top: 44%;
+  margin-top: -200px;
+  /* half of #content height*/
+  left: 0;
+  width: 100%;}
+
+body{
+  background-color: #f5f5f5;
+}
